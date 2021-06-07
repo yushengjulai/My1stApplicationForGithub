@@ -3,6 +3,8 @@ package com.example.my1stapplicationforgithub;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,5 +15,9 @@ public class MainActivity extends AppCompatActivity {
         RVData data = new RVData();
         data.setId(1);
         data.setName("第一个");
+        TextView text1 = findViewById(R.id.textView);
+        TextView text2 = findViewById(R.id.textView2);
+        text1.setText(data.getId());
+        text2.setText(data.getName());
     }
 }
