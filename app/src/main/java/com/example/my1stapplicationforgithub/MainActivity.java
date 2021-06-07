@@ -10,5 +10,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        RVData data = new RVData();
+        data.setId(1);
+        data.setName("第一个");
     }
 }
