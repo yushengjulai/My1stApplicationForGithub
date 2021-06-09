@@ -3,6 +3,7 @@ package com.example.my1stapplicationforgithub;
 public class RVData {
     private int id;
     private String name;
+    private int creditNo;
 
     public int getId() {
         return id;
@@ -18,5 +19,13 @@ public class RVData {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getCreditNo() {
+        return creditNo;
+    }
+
+    public void setCreditNo(int  creditNo) {
+        this.creditNo = creditNo;
     }
 }
